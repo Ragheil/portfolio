@@ -1,8 +1,10 @@
-const Home = () => (
-  <section className="home">
-    <h2>Hi, I'm [Your Name]</h2>
-    <p>A passionate Web Developer building modern React apps.</p>
-  </section>
-);
+const Home = () => {
+  return (
+    <section className="home container">
+      <h2>Welcome to My Portfolio</h2>
+      <p>I'm a passionate developer who loves building modern, responsive websites and apps.</p>
+    </section>
+  );
+};
 
 export default Home;
