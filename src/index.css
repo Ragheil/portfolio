@@ -61,3 +61,28 @@ body, html, .app-root {
   background-color: #0a192f;
   color: white;
 }
+body {
+  --bg: #fff;
+}
+
+body.dark-mode {
+  --bg: #111;
+  color: #eee;
+}
+
+body.dark-mode {
+  --bg: #1e1e1e;
+  --text: #ffffff;
+  --accent: #f39c12;
+  background-color: var(--bg);
+  color: var(--text);
+}
+:root {
+  --bg: #fff;
+  --text: #000;
+}
+
+body.dark-mode {
+  --bg: #1e1e1e;
+  --text: #fff;
+}
