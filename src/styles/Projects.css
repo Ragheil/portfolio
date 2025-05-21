@@ -1,0 +1,46 @@
+.projects {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.projects ul {
+  margin-bottom: 1.5rem;
+  padding-left: 1.2rem;
+}
+
+.projects h2 {
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+/* Desktop: 3 columns grid */
+.projects .MuiImageList-root {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Mobile: horizontal scroll with one image per card */
+@media only screen and (max-width: 600px) {
+  .projects .MuiImageList-root {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    height: auto !important;
+    width: 100% !important;
+    padding-bottom: 0.5rem;
+    scroll-snap-type: x mandatory;
+  }
+
+  .projects .MuiImageListItem-root {
+    flex: 0 0 80vw !important;
+    margin-right: 1rem;
+    scroll-snap-align: start;
+  }
+
+  .projects .MuiImageListItem-root:last-child {
+    margin-right: 0;
+  }
+}
