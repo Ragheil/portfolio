@@ -1,8 +1,32 @@
+import '../styles/home.css'; // CSS file with all styles
+
 const Home = () => {
   return (
     <section className="home container">
-      <h2>Welcome to My Portfolio - Under development just for fun</h2>
-      <p>I'm a passionate developer who loves building modern, responsive websites and apps.</p>
+      <div className="hero">
+        {/* Profile Image */}
+        <div className="profile-image">
+          <img src="/images/profile2.jpg" alt="Profile" />
+        </div>
+
+        {/* Hero Content */}
+        <h1 className="animate-text">Hi, I'm a Passionate Developer</h1>
+        <p className="animate-text">I love building modern, responsive websites and mobile apps.</p>
+
+        {/* CTA Button */}
+        {/* <a href="projects" className="cta-button animate-button">View My Work</a> */}
+
+        {/* Social Media Links */}
+        <div className="social-links">
+          <a href="https://github.com/Ragheil" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/ragheil-atacador-5a9a671b0/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://web.facebook.com/ragheil.atacador.8" target="_blank" rel="noopener noreferrer">Facebook</a>
+
+          {/* <a href="https://www.linkedin.com/in/ragheil-atacador-5a9a671b0/" target="_blank" rel="noopener noreferrer">LinkedIn</a> */}
+
+          <a href="mailto:atacadorragheil@gmail.com">Email</a>
+        </div>
+      </div>
     </section>
   );
 };

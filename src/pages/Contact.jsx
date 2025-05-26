@@ -2,7 +2,7 @@ const Contact = () => {
   return (
     <section className="contact container">
       <h2>Contact Me</h2>
-      <p>You can reach me via email at: <a href="mailto:youremail@example.com">atacadorragheil@gmail.com</a></p>
+      <p>You can reach me via email at: <a href="mailto:atacadorragheil@gmail.com">atacadorragheil@gmail.com</a></p>
     </section>
   );
 };
