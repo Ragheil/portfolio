@@ -1,13 +1,15 @@
 import '../styles/about.css';
+import { useNavigate } from 'react-router-dom';
 
 const About = () => {
+  const navigate = useNavigate(); // Hook for navigation
+
   return (
     <section className="about container">
       {/* Profile Photo */}
       <div className="profile-photo">
         {/* <img src="/images/profile.png" alt="Profile" /> */}
         <img src="/images/profile2.jpg" alt="Profile" />
-
       </div>
 
       {/* Main Content */}
@@ -61,6 +63,12 @@ const About = () => {
             <li>English (B2)</li>
           </ul>
         </div>
+
+        {/* 🔥 New Button to Preview Resume */}
+        <div className="resume-preview-button">
+          <button onClick={() => window.open('/file/Ragheil_Atacador_RESUME.pdf', '_blank')}> Preview Resume </button>
+        </div>  
+
       </div>
     </section>
   );
