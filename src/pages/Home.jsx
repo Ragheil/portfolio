@@ -11,7 +11,10 @@ const Home = () => {
 
         {/* Hero Content */}
         <h1 className="animate-text">Hi, I'm a Passionate Developer</h1>
-        <p className="animate-text">I love building modern, responsive websites and mobile apps.</p>
+        <p className="animate-text">I am a junior developer with a strong foundation in web and mobile development. Skilled in
+                creating efficient, user-friendly applications and quick to adapt to new technologies.
+                Committed to delivering quality work, solving real-world problems, and continuously
+                improving in a fast-paced tech environment</p>
 
         {/* CTA Button */}
         {/* <a href="projects" className="cta-button animate-button">View My Work</a> */}
