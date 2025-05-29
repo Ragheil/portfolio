@@ -1,0 +1,21 @@
+/* Footer.css */
+
+.footer {
+  background-color: #0b192e; /* A dark blue-gray, good for a professional feel */
+  color: #ecf0f1; /* Light gray text for contrast */
+  text-align: center;
+  padding: 10px 0; /* Some vertical padding */
+  height: 50px; /* Adjust this height as needed */
+  display: flex; /* Use flexbox for easy vertical centering */
+  align-items: center; /* Vertically center the content */
+  justify-content: center; /* Horizontally center the content */
+  width: 100%; /* Ensure it spans the full width */
+  box-sizing: border-box; /* Include padding in the height calculation */
+  
+}
+
+.footer p {
+  margin: 0; /* Remove default paragraph margins */
+  font-size: 0.9em; /* Slightly smaller font size for copyright text */
+  font-family: 'Arial', sans-serif; /* A common, readable font */
+}
