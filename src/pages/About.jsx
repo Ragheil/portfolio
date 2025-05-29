@@ -69,6 +69,9 @@ const About = () => {
           <button onClick={() => window.open('/file/Ragheil_Atacador_RESUME.pdf', '_blank')}> Preview Resume </button>
         </div>  
 
+       <div className="resume-preview-button">
+          <button onClick={() => window.open('/file/Ragheil_Atacador-CV.pdf', '_blank')}> Preview CV </button>
+        </div> 
       </div>
     </section>
   );
